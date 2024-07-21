@@ -1,10 +1,10 @@
-import emblem from '../../img/header/emblem.svg';
-import email from '../../img/footer/email.svg';
-import phone from '../../img/footer/phone.svg';
-import whatsapp from '../../img/footer/logos_whatsapp-icon.svg';
-import telegram from '../../img/footer/logos_telegram.svg';
-import facebook from '../../img/footer/logo_faceBook.svg';
-import insta from '../../img/footer/logo_insta.svg';
+import emblem from '@img/header/emblem.svg';
+import email from '@img/footer/email.svg';
+import phone from '@img/footer/phone.svg';
+import whatsapp from '@img/footer/logos_whatsapp-icon.svg';
+import telegram from '@img/footer/logos_telegram.svg';
+import facebook from '@img/footer/logo_faceBook.svg';
+import insta from '@img/footer/logo_insta.svg';
 import styles from './Footer.module.scss'
 import { Link } from 'react-router-dom';
 
@@ -19,7 +19,7 @@ const Footer = () => {
                 </div>
 
                 <div className={styles.contact}>
-                    <a href="">связаться с нами</a>
+                    <a href="https://www.instagram.com/bif.kg/">связаться с нами</a>
                     <p><img src={phone} alt="phone" />+996 555 895 362</p>
                     <p><img src={email} alt="email" /> E-mail</p>
                 </div>
