@@ -1,10 +1,14 @@
+import { FifthSection, FirstSection, FourthSection, SecondSection, ThirdSection } from "@components/HomeSections";
 
-const HomePage = () => {
+export const HomePage = () => {
     return (
-        <div>
-<h1>О проекте</h1>
+        <div style={{ paddingBottom: '400px', backgroundColor: '#051650'}}>
+            <FirstSection />
+            <SecondSection />
+            <ThirdSection />
+            <FourthSection />
+            <FifthSection />
         </div>
     );
 }
 
-export default HomePage;

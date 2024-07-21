@@ -1,11 +1,10 @@
+import React from 'react';
 
-
-const ExhibitionPage = () => {
+export const ExhibitionPage = () => {
     return (
         <div>
-<h1>Выставка</h1>
+            <h1>Выставка</h1>
         </div>
     );
 }
 
-export default ExhibitionPage;

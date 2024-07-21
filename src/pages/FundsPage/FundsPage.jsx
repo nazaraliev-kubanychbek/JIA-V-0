@@ -1,6 +1,6 @@
 
 
-const FundsPage = () => {
+export const FundsPage = () => {
     return (
         <div>
 <h1>Инвестиционные фонды и компании </h1>
@@ -8,4 +8,3 @@ const FundsPage = () => {
     );
 }
 
-export default FundsPage;
